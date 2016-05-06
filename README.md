@@ -1,7 +1,8 @@
 # Fastq Quality Statistics Plots
-***
 
-Tool that generates “quality control statistics” from FastQ file.
+A tool that generates three common quality control statistics plots from a fastq input.
+
+For more complete documentation, see [the Yale CBB752 course website](http://cbb752spring2016.github.io/QCStep#quality-statistics). 
 
 Note: This tool is part of a set of bioinformatic and biological structure tools created for CBB752 at Yale University in the Spring 2016. The website containing links to the set of tools can be found at: <https://github.com/CBB752Spring2016/CBB752Spring2016.github.io>.
 
@@ -24,9 +25,11 @@ The script take one required input (name of the fastq file to be processed) and 
   Usage:      Rscript qualitystats.R -i < input file > -o < output file >
   
   Examples:  
+  
   ```
-  	     Rscript qualitystats.R -i sample-input.fastq -o sample-output.txt
-         Rscript qualitystats.R -i sample-input.fastq
+Rscript qualitystats.R -i sample-input.fastq -o sample-output.txt
+         
+Rscript qualitystats.R -i sample-input.fastq
   ```
   
 ### Input and Output formats
@@ -56,3 +59,6 @@ For a plot of the distribution of mean quality per sequence see: Per_Sequence_Me
 
 ![Fig3](https://github.com/dspak/CBB752_Final_Project_1.2/blob/master/output_R_qual_hist.png)
 
+***
+
+This tool has also been implemented [in python by peter-mm-williams](https://github.com/peter-mm-williams/CBB752_Final_Project_1.2).
