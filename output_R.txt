@@ -1,4 +1,4 @@
-Quality Score Statistics and Figure names for sample-input_1K.fastq
+Quality Score Statistics and Figure names for sample-input.fastq
 
 Number of Sequences = 250
 
